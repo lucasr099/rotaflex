@@ -1,0 +1,99 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilize o corpo da página com uma imagem de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Adicione o caminho da imagem de fundo desejada */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(imagens/jpeg.jpg);
+    background-size:100%;
+    
+   
+}
+
+/* Estilize o contêiner principal */
+.container {
+    text-align: center;
+    background-color: rgba(37, 35, 35, 0.741); /* Adicione uma cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilize o título principal */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #010203;
+}
+
+/* Estilize as etiquetas de entrada e rótulos */
+.input-group {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #070606;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e2bfab;
+}
+
+/* Estilize o botão com uma cor de fundo diferente */
+button {
+    background-color: #545948; /* Cor de fundo laranja */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64900; /* Cor de fundo laranja mais escura quando hover */
+}
+
+/* Estilize o resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #e6c7b550; /* Cor de fundo com transparência */
+}
+
+/* Estilize a mensagem personalizada */
+#resultado p {
+    margin: 10px 0;
+   color: #010203;
+}
+
+/* Estilize a imagem no resultado */
+#resultado img {
+    max-width: 40%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
